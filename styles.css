@@ -1,0 +1,112 @@
+@import url('//fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
+
+.fira-code-text {
+  font-family: "Fira Code", monospace;
+  font-optical-sizing: auto;
+  font-weight: 300;
+}
+
+.fira-code-text * {
+  font-family: inherit;
+  font-optical-sizing: inherit;
+  font-weight: inherit;
+}
+
+.fira-code-text h1 {
+  font-weight: 600;
+}
+
+.fira-code-text h2 {
+  font-weight: 500;
+}
+
+.fira-code-text .fa-brands {
+    font-family: "Font Awesome 6 Brands";
+    font-weight: 400;
+}
+
+.fira-code-text .fa-solid {
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+}
+
+body {
+    font-optical-sizing: auto;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #011627;
+    color: #acb4c2;
+}
+
+header {
+  margin-top: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    margin: 0;
+    font-size: 18px;
+}
+
+h3 {
+    margin: 0;
+    font-size: 14px;
+}
+
+p {
+    font-size: 12;
+}
+
+.fa-brands, .fa-solid {
+    font-size: 24px;
+    margin: 10px;
+}
+
+a {
+    color: #E3D18A;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #1d3b53;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.8em;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    position: relative;
+    padding-left: 20px;
+}
+
+li::after {
+    content: "\2713";
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.card {
+  max-width: 300px;
+  margin: auto;
+  padding: 0;
+  text-align: center;
+}
